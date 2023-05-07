@@ -21,7 +21,7 @@ symbolTable = []
 operands = []
 
 # take input form file
-with open("./exp3/textfile.txt") as f:
+with open("./textfile.txt") as f:
     code = f.readlines()
 
 for i, line in enumerate(code):

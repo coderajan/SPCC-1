@@ -1,10 +1,5 @@
 import pandas as pd 
 
-print("One thing is noticed before starting of the program is that it is compulsory to exist an 'input.csv' file\n") 
-print("The format of 'input.csv' file is that it should contain a 'left' header and a 'right' header with values indicating left and right respectively.\n") 
-print("Here we can't consider 'equal(=)' sign because it doesn't affect a bit of code with or without its presence.\n") 
-print("This program is case-sensitive; this means that 'd*10' and '10*d' are treated differently. They are not the same.") 
-print("The format and input file for this program is as below..") 
 
 a = pd.read_csv("input.csv") 
 c = a.shape 
